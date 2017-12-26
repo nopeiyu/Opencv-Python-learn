@@ -1,7 +1,5 @@
 import numpy as np
 import cv2
-from matplotlib import pyplot as plt
-
 #load an color image in grayscale
 def read_writeimage():
     img = cv2.imread('./img/22.jpg',0)
@@ -11,6 +9,8 @@ def read_writeimage():
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+import numpy as np
+import cv2
 def read_writeimage1():
     img = cv2.imread('./img/22.jpg',0)
     cv2.imshow('image',img)
@@ -21,13 +21,11 @@ def read_writeimage1():
         cv2.imwrite('./img/220.png',img)
         cv2.destroyAllWindows() 
 
+import numpy as np
+import cv2
+from matplotlib import pyplot as plt
 def read_imageplt():
     img = cv2.imread('./img/22.jpg',0)
     plt.imshow(img, cmap = 'gray', interpolation = 'bicubic')
     plt.xticks([]), plt.yticks([])  # to hide tick values on X and Y axis
     plt.show()
-
-if __name__ == '__main__':
-    read_writeimage()
-    read_writeimage1()
-    read_imageplt()
