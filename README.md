@@ -23,8 +23,8 @@ opencv-python的安装，这里介绍两种安装途径。
 
 安装完成之后，打开python环境，`import cv2`如果没错误就安装成功了
 
-## 2. 基础Api的使用
-### 2.1 [读入显示图像]()
+## 2.基础Api的调用
+### 2.1 [读取写入图像](https://github.com/nopeiyu/Opencv-Python-learn/blob/master/read-image.py)
 
 ## 3. 利用Knn和Svm训练识别手写数字  
 >1.图片位置img/digits.png，为50行100列共5000个手写数字  
