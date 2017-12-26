@@ -25,6 +25,7 @@ opencv-python的安装，这里介绍两种安装途径。
 
 ## 2.基础Api的调用
 ### 2.1 [读取写入图像](https://github.com/nopeiyu/Opencv-Python-learn/blob/master/read-image.py)
+### 2.2 [自己写一个进度条调色板](https://github.com/nopeiyu/Opencv-Python-learn/blob/master/Trackbar.py)
 
 ## 3. 利用Knn和Svm训练识别手写数字  
 >1.图片位置img/digits.png，为50行100列共5000个手写数字  
