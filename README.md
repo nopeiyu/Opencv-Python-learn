@@ -15,11 +15,17 @@ opencv-python的安装，这里介绍两种安装途径。
  
 #### 1.2.1 使用exe安装包
 
-> [opencv安装包下载](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.4-vc14.exe/download),下载之后安装到一个目录，将~\opencv\build\python\2.7\x64\cv2.pyd这个文件复制到~\Anaconda2\Lib\site-packagesq文件夹下就行了,这种安装适用于python 2.7和opencv2的环境
+[opencv安装包下载](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.4-vc14.exe/download),下载之后安装到一个目录，将~\opencv\build\python\2.7\x64\cv2.pyd这个文件复制到~\Anaconda2\Lib\site-packagesq文件夹下就行了,这种安装适用于python 2.7和opencv2的环境
 
 #### 1.2.2 安装文件安装
 
-> [opencv-python安装包下载](https://pypi.python.org/pypi/opencv-python)，根据你的系统及python版本，下载安装包之后，用pip install ~/opencv_python-3.3.1.11-cp27-cp27m-win_amd64.whl(你下载的文件名)命令行安装
+[opencv-python安装包下载](https://pypi.python.org/pypi/opencv-python)，根据你的系统及python版本，下载安装包之后，用pip install ~/opencv_python-3.3.1.11-cp27-cp27m-win_amd64.whl(你下载的文件名)命令行安装
+
+#### 1.2.3 linux命令行安装
+```
+sudo apt-get install python-opencv
+sudo apt-get install python-numpy
+```
 
 安装完成之后，打开python环境，`import cv2`如果没错误就安装成功了
 
