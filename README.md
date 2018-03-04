@@ -2,7 +2,7 @@
 ============================
 项目是我学习opencv-python的过程中记录的笔记，前期主要是基础api的使用，后期会涉及一些高级功能的研究。文献来自网络，主要参考了[open-python官网](http://opencv-python-tutroals.readthedocs.io/en/latest/)和[OpenCV-Python-Toturial-中文版.pdf](https://github.com/nopeiyu/opencv-Python-learn/tree/master/doucument)这本官网文档的翻译，错误之处欢迎批评指正！
 
-[TOC]
+[TOC]  
 
 ## 1. 环境安装  
 ### 1.1 anaconda python2.7安装 
